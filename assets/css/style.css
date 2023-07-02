@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap');
+
+
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.hero-section{
+    height: 80vh;
+    background-image: url("../img/dd.jpg");
+    background-position: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* navigation section */
+.nav-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1% 15%;
+}
+
+.logo{
+    color: #fff;
+    font-size: 30px;
+}
+
+.nav-menu{
+    width: 300px;
+}
+
+.nav-menu a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 0%;
+    list-style-type: none;
+}
+
+/* hero content section */
+
+.hero-content-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+}
+
+.hero-content{
+    color: #fff;
+    text-align: center;
+}
+
+.hero-content h1{
+    font-size: 50px;
+    font-weight: 300;
+}
+
+/* feature section */
+
+.feature-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:40vh;
+    padding: 2% 15%;
+}
+
+.feature{
+    padding: 2% 4%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.middle-feature{
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+}
+
+.feature h2{
+    font-size: 150%;
+}
+
+button{
+    padding: 2% 10%;
+    background-color: #3AA6B9;
+    color: #fff;
+    border: none;
+}
+
+
+/* team section */
+
+.team-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3% 15%;
+    background-color: #3AA6B9;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.team-section h2{
+    font-size: 30px;
+    margin: 0%;
+}
+
+.team-section p{
+    margin: 0%;
+    margin-bottom: 5%;
+    font-weight: 300;
+}
+
+.team-member{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.member{
+    padding: 2% 4%;
+    border: 1px solid #fff;
+    margin: 0% 2%;
+    text-align: center;
+}
+
+.member h4{
+    font-size: 20px;
+    margin: 0%;
+    margin-top: 5%;
+}
+
+.member p{
+    font-size: 15px;
+    font-weight: 300;
+    margin: 0%;
+    margin-bottom: 10%;
+}
+
+.member img{
+    border-radius: 100%;
+}
+
+/* blog section */
+
+.blog-section{
+    padding:3% 15%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.blog-section h2{
+    margin: 0%;
+}
+
+.blog-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blog{
+    text-align: left;
+    margin: 2% 5%;
+    border-radius: 0% 0% 2% 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.blog h4{
+    margin: 0%;
+    color: #3AA6B9;
+    font-size: 20px;
+}
+
+.blog img{
+    width:100%;
+    border-radius: 2% 2% 0% 0%;
+}
+
+.blog div{
+    padding:3%;
+}
+
+
+/* footer section */
+
+.footer-section{
+    padding: 1% 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social-icon a{
+    color: #3AA6B9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 900px) {
+
+    /* navigation section */
+
+    .nav-section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 1% 15%;
+    }
+    
+    .logo{
+        color: #fff;
+        font-size: 30px;
+    }
+    
+    .nav-menu{
+        width: 300px;
+    }
+    
+
+    /* feature section */
+
+.feature-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height:40vh;
+    padding: 30% 15%;
+    margin: 10% auto;
+}
+
+.feature{
+    padding: 2% 4%;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 10px;
+}
+
+.middle-feature{
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    border-right: none;
+    border-left: none;
+    margin-bottom: 10px;
+}
+
+.feature h2{
+    font-size: 150%;
+}
+
+.feature button{
+    padding: 2% 30%;
+    background-color: #3AA6B9;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+}
+
+
+/* team member */
+
+.team-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2% 5%;
+    background-color: #3AA6B9;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.team-section h2{
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+.team-section p{
+    margin: 0%;
+    margin-bottom: 20%;
+    font-weight: 300;
+}
+
+.team-member{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.member{
+    padding: 2% 4%;
+    border: 1px solid #fff;
+    margin: 0%;
+    margin-bottom: 10%;
+    text-align: center;
+    width: 100%;
+}
+
+.member h4{
+    font-size: 20px;
+    margin: 0%;
+    margin-top: 5%;
+}
+
+.member p{
+    font-size: 15px;
+    font-weight: 300;
+    margin: 0%;
+    margin-bottom: 10%;
+}
+
+.member img{
+    border-radius: 100%;
+    width: 100%;
+}
+
+
+/* blog section */
+
+.blog-section{
+    padding:3% 5%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.blog-section h2{
+    margin: 0%;
+    margin-top: 10%;
+}
+
+.blog-section p{
+    margin-bottom: 5%;
+}
+
+.blog-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.blog{
+    text-align: left;
+    margin: 2% 5%;
+    border-radius: 0% 0% 2% 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.blog h4{
+    margin: 0%;
+    color: #3AA6B9;
+    font-size: 20px;
+}
+
+.blog img{
+    width:100%;
+    border-radius: 2% 2% 0% 0%;
+}
+
+.blog div{
+    padding:3%;
+    text-align: center;
+}
+
+
+/* footer section */
+
+.footer-section{
+    padding: 1% 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.social-icon a{
+    color: #3AA6B9;
+}
+
+
+  }
