@@ -11,6 +11,7 @@ body{
     height: 80vh;
     background-image: url("../img/dd.jpg");
     background-position: center;
+    background-attachment: fixed;
     font-family: 'Montserrat', sans-serif;
 }
 
